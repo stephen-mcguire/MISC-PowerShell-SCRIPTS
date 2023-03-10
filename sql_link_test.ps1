@@ -1,4 +1,4 @@
-[string]$RemoteServer = 'W-MSSQL103.wd.clarkinc.io';[string]$LinkedServerName = 'mssql105' 
+[string]$RemoteServer = 'SERVER_NAME.domain.domain.domain';[string]$LinkedServerName = 'short_name' 
 $RemoteConn = 'Data Source=' + $RemoteServer + ';Initial Catalog=master;Integrated Security=SSPI;'
 $RemoteSqlConnection = New-Object System.Data.SqlClient.SqlConnection
 $RemoteSqlConnection.ConnectionString = $RemoteConn
