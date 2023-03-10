@@ -1,4 +1,4 @@
-$ouPath = "DC=wd,DC=clarkinc,DC=io"  # replace with the distinguished name of the OU you want to remove Silverlight from
+$ouPath = "DC=,DC=,DC="  # replace with the distinguished name of the OU you want to remove Silverlight from
 $uninstallCommand = "msiexec.exe /x {89F4137D-6C26-4A84-BDB8-2E5A4BB71E00} /qn"
 $computers = Get-ADComputer -Filter * -SearchBase $ouPath
 
