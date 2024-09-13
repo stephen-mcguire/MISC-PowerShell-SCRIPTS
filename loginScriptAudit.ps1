@@ -4,10 +4,10 @@ Install-Module -Name ImportExcel
 
 # Define the OUs to search in
 $OUs = @(
-    "OU=EndUsers,OU=Users,OU=USTYS,OU=BHS,DC=bhs,DC=lan",
-    "OU=EndUsers,OU=Users,OU=USBAL,OU=BHS,DC=bhs,DC=lan",
-    "OU=EndUsers,OU=Users,OU=USHPK,OU=BRO,DC=bhs,DC=lan",
-    "OU=EndUsers,OU=Users,OU=MXMTY,OU=BHS,DC=bhs,DC=lan"
+    "OU=EndUsers,OU=Users,OU=NEED INFO,OU=NEED INFO,DC=NEED INFO,DC=NEED INFO",
+    "OU=EndUsers,OU=Users,OU=NEED INFO,OU=NEED INFO,DC=NEED INFO,DC=NEED INFO",
+    "OU=EndUsers,OU=Users,OU=NEED INFO,OU=NEED INFO,DC=NEED INFO,DC=NEED INFO",
+    "OU=EndUsers,OU=Users,OU=NEED INFO,OU=NEED INFO,DC=NEED INFO,DC=NEED INFO"
 )
 
 # Initialize an empty array to store results
